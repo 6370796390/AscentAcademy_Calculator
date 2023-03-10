@@ -6,20 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <style>
+         /* #a{
+            color: #ffffff;
+        border-color: aqua;
+        padding: 10px;
+        border-radius: 10px;
+        }  */
         body{
             background-color: chartreuse;
             border-color: cadetblue;
+            text-align: center;
         }
         h1{
             color:black;
             text-align: center;
             border: #ebdede;
+            text-align: center;
         }
         .calculator {
 	        display: inline-block;
             align-items: center;
 	        border: 2px solid #7d0de6;
 	        padding: 10px;
+            text-align: center;
         }
 
         .display-screen {
@@ -28,12 +37,14 @@
             align-items: center;
 	        height: 50px;
 	        margin-bottom: 10px;
+            text-align: center;
         }
 
         .buttons {
 	        display: grid;
 	        grid-template-columns: repeat(4, 1fr);
 	        grid-gap: 10px;
+            text-align: center;
         }
 
         button {
@@ -42,16 +53,23 @@
 	        background-color: #8d1cd8;
 	        border: 1px solid #7914ec;
 	        cursor: pointer;
+            text-align: center;
         }
 
         button:hover {
 	        background-color: #fa12c8;
 	        color: #22e0e0fff;
+            text-align: center;
         }
     </style>
 </head>
 <body >
-    <h1>AscentAcademy_Calculator</h1>
+    
+    <!-- <div id="a">
+    <img src="Ascent Academies.jpg" alt="My Logo">
+</div> -->
+<h1>AscentAcademy_Calculator</h1>
+    
     <div class="calculator">
         <div class="display-screen">
             <p id="result"></p>
